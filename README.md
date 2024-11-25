@@ -29,7 +29,6 @@ spec:
           name: app-config
 b. MySQL StatefulSet
 yaml
-Copy code
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -69,7 +68,6 @@ spec:
           storage: 10Gi
 c. Service for Apache and MySQL
 yaml
-Copy code
 apiVersion: v1
 kind: Service
 metadata:
